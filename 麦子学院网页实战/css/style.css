@@ -1,0 +1,253 @@
+/*通用样式*/
+*{
+    margin: 0;padding: 0;
+}/*去掉所有元素的margin和padding*/
+body{font:14px/24px '微软雅黑,宋体'}
+.wp{
+    width:960px;
+    margin: 0 auto;
+}
+.z{float: left;}
+.y{float:right;}
+.cl{clear: both}
+
+.top{
+    width:100%;
+    height:24px;
+    line-height: 24px;/*行高*/
+    background: #303030;
+    color:#d8d8d8
+}
+.top span{margin-right: 15px}
+.top span.mr_0{margin:0}
+.top a{
+    color:#d8d8d8;
+    text-decoration: none;
+}
+.top a:hover{
+    color:#f60;
+}
+/*LOGOS*/
+.logos{
+    height: 62px;
+    margin: 15px 0;
+}
+/*搜索*/
+.sousuo{
+    width:300px;
+    height:62px;
+    margin:4px 0 0 53px;
+}
+.sousuo td{
+    height: 62px;
+
+}
+.s_l{
+    width:22px;
+    background: url("../imges/s_l.jpg")no-repeat;
+
+}
+.s_c{
+    width:150px;
+    background: url("../imges/s_c.jpg") repeat-x;
+}
+.s_r{
+    width:121px;
+    background: url("../imges/s_r.jpg") no-repeat;
+}
+.s_c input{
+    height: 45px;
+    width: 150px;
+    line-height: 45px;
+    border: none;
+    margin-top: 9px;
+}
+.s_r button{
+    width: 121px;
+    height: 62px;
+    background: none;
+    border: 0;
+    cursor: pointer;
+}
+.dianhua{
+    margin-right: 10px;
+    height:59px;
+    line-height: 73px;
+}
+.dianhua span{
+    font-size: 37px;
+    color: darkred;
+}
+/*导航*/
+.nav{
+    height: 39px;
+    width:100%;
+    background: url("../imges/nav_bg.jpg")repeat-x;
+}
+.nav li{
+    list-style: none;
+    float: left;
+    line-height: 39px;
+    padding:0 28px;
+}
+.nav li.a,.nav li:hover{
+    height: 37px;
+    background: url("../imges/nav_hover.jpg") repeat-x;
+}
+.nav a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+.ad{
+    margin-bottom: 10px;
+}
+.tit{
+    padding-bottom: 0px;/*因为标题和下划线之间还有距离*/
+    border-bottom: 1px solid darkred;
+    position: relative;/*正常定位*/
+    margin-bottom: 10px;
+}
+.tit span{
+    position:absolute;/*相对于父元节进行定位*/
+    right:0;
+    bottom: 2px;
+}
+.tit a{
+    color:darkred;
+    text-decoration: none;
+}
+.jianjie{
+    width:540px;
+    height: 414px;
+    margin-right: 20px;
+}
+.jj_c img{
+    float: left;
+    margin: 0 10px 10px 0;/*左浮动，让文字环绕它*/
+}
+.jj_c p{
+    color:#616161;
+    text-indent: 24px;/*行首空格*/
+}
+.xinwen{
+    width: 400px;
+    height: 300px;
+}
+.chanpin{
+    width: 100%;
+    height: 360px;
+}
+.xw_c{
+
+}
+.xw_c li{
+    list-style: none;
+    height: 24px;/*行高*/
+    line-height: 24px;
+    position: relative;
+    padding-left: 15px;/*padding：内边距*/
+    background: url("../imges/list_bg.jpg")no-repeat center left;/*无重复 居中 靠左*/
+    margin-bottom: 5px;
+}
+.xw_c li.a{
+    background: none;
+    padding:0;
+    height: 104px;
+}
+.xw_c li img{
+    float:left;
+    width: 150px;
+    margin:0 10px 10px 0;
+}
+.xw_c span{
+    position: absolute;
+    right: 0;
+    bottom: 0;/*可以去掉看看它的作用*/
+    font-size: 12px;
+    color: #888888;
+}
+.xw_c h3{
+    font-weight: normal;
+    font-size: 14px;
+}
+.xw_c a{
+    color: #616161;
+    text-decoration: none;
+}
+.xw_c p{
+    font-size: 12px;
+    color: #888;
+    text-indent: 24px;
+}
+.cp_c{
+
+}
+.cp_c li{
+    float: left;
+    list-style: none;
+    margin: 0 4px 10px 0;
+    width: 155px;
+    height: 96px;
+    overflow: hidden;
+    position: relative;
+}
+.cp_c span{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    font-size: 14px;
+    height: 20px;
+    width:131px;
+    padding: 0 10px;
+    color: #fff;
+    background: darkred;
+    overflow: hidden;
+}
+.cp_c li a:hover span{
+    display: block;/*只有当鼠标放上去的时候span标题才显示*/
+}
+.cp_c li img{
+    float: left;
+}
+.cp_c li.mr_0{
+    margin-right: 0;
+}
+/*footer*/
+.footer{
+    height: 100px;
+    width: 100%;
+    background: url("../imges/footer_bg.jpg")repeat-x;
+}
+.footer_top{
+    height:80px;
+    line-height:80px;
+    color:#fff;
+}
+.footer_top .z{
+    font-size: 16px;
+}
+.footer_top a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer_bottom p{
+    color:#f60;
+}
+.footer_bottom a{
+    color: #888;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.footer_bottom a:hover{
+    color: #f60;
+}
+
+
+
+
+
+
+
+
